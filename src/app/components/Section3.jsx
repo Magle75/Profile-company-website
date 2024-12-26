@@ -58,26 +58,26 @@ const Section3 = () => {
               title: "Prototype +",
               description:
                 "We build prototypes and zero series in our workshop. Here we test whether the design does what it should do. High focus, speed and efficiency.",
-              imageUrl: "/card.jpg",
+              imageUrl: "./card.jpg",
             },
             {
               title: "FEM Calculation +",
               description:
                 "Build immediately? No. With FEM calculations, we foresee problems and see if we meet the conditions.",
-              imageUrl: "/card2.jpg",
+              imageUrl: "./card2.jpg",
               isDark: true,
             },
             {
               title: "Duration test +",
               description:
                 "Prototypen, nulseries en onderdelen van machines controleren we zorgvuldig op maatvoering, continuïteit en slijtage.",
-              imageUrl: "/card3.jpg",
+              imageUrl: "./card3.jpg",
             },
             {
               title: "Project Management +",
               description:
                 "We like to work together intensively and aim for long-term relationships in every project. Good project management is part of that.",
-              imageUrl: "/card4.jpg",
+              imageUrl: "./card4.jpg",
               isDark: true,
             },
           ].map((item, index) => (

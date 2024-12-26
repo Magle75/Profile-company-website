@@ -71,7 +71,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-2">
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.svg"
+            src="./logo.svg"
             alt="MyLogo"
             width={150}
             height={50}
@@ -92,7 +92,7 @@ const Navbar = () => {
           ))}
           <div className="relative">
             <Image
-              src="/english.svg" 
+              src="./english.svg" 
               alt="Image 1"
               width={40}
               height={40}
@@ -103,7 +103,7 @@ const Navbar = () => {
             {dropdownOpen && (
               <div className="absolute left-0 mt-2 bg-white shadow-lg rounded-lg p-2">
                 <Image
-                  src="/netherland.svg" 
+                  src="./netherland.svg" 
                   alt="Image 2"
                   width={100}
                   height={100}
@@ -139,14 +139,14 @@ const Navbar = () => {
             ))}
             <div className="flex justify-around mt-4">
               <Image
-                src="/english.svg" 
+                src="./english.svg" 
                 alt="Image 1"
                 width={50}
                 height={50}
                 className="cursor-pointer"
               />
               <Image
-                src="/netherland.svg"
+                src="./netherland.svg"
                 alt="Image 2"
                 width={50}
                 height={50}
