@@ -37,7 +37,7 @@ const Section3 = () => {
   };
 
   return (
-    <section className="ezy__portfolio10 light py-14 md:py-24 bg-white dark:bg-[#dee7f4] text-zinc-900 dark:text-white">
+    <section className="ezy__portfolio10 light py-14 md:py-24 :bg-[#dee7f4] text-white">
       <div className="container px-4 mx-auto">
         <div className="flex justify-content-center">
           <div className="max-w-3xl text-center mx-auto">
