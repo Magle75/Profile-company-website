@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const HeroHeader29 = () => {
   return (
@@ -8,17 +6,13 @@ const HeroHeader29 = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(/background.jpg)",
-
-          filter: "brightness(0.5)", // Atur kecerahan di sini
-
-          zIndex: 0, // Pastikan gambar berada di belakang konten
+          backgroundImage: "url(/background.jpg)", // Mengatur gambar latar belakang
+          filter: "brightness(0.5)", // Mengatur kecerahan gambar latar belakang
+          zIndex: 0, // Menempatkan gambar di belakang konten lainnya
         }}
       ></div>
 
       <div className="container px-4 mx-auto relative z-10">
-        {" "}
-        {/* Tambahkan z-10 untuk menempatkan konten di atas gambar */}
         <div className="md:max-w-5xl mx-auto flex justify-center items-center text-left">
           <div>
             <h1 className="text-3xl font-bold leading-tight md:text-[62px] mb-2">
@@ -31,7 +25,7 @@ const HeroHeader29 = () => {
         </div>
       </div>
       <div className="bg-slate-500">
-       
+        {/* Ruang untuk konten tambahan jika diperlukan */}
       </div>
     </section>
   );

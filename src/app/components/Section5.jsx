@@ -9,7 +9,8 @@ const Section5 = () => {
             <h1 className="text-2xl text-[#2b3467] font-bold leading-[1.1] md:text-[62px] mb-2">
               Back to basics every day since 1995
             </h1>
-            <p className="text-[22px] text-[#7c7f8d] #7c7f8d leading-snug opacity-80 my-6">
+
+            <p className="text-[22px] text-[#7c7f8d] leading-snug opacity-80 my-6">
               In 1995, Hielke Dijkstra founded Trios, driven by an initial
               customer demand. His philosophy from day one? Keep surprising your
               customer positively with thoughtful designs that result in the
