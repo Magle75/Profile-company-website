@@ -8,7 +8,7 @@ const testimonialList = [
       "Trios excels in conceptual thinking. They break down major problems into smaller, manageable parts and combine them into a well-functioning whole. The solutions are surprising and always well thought out. Ideas and concepts are discussed internally with multiple disciplines before they are presented to the customer. During the development of transport solutions, extensive calculations and simulations are carried out. This process gives a lot of confidence in the final results.",
   },
   {
-    photo: "/slider-img.jpg", 
+    photo: "./slider-img.jpg", 
   },
 ];
 

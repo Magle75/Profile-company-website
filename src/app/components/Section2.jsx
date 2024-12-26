@@ -18,22 +18,22 @@ const Card = ({ image, name }) => {
 const CardGrid = () => {
   // Array berisi data kartu (gambar dan nama)
   const cards = [
-    { image: "/foto1.jpg", name: "Marc Ottenschot" },
-    { image: "/foto2.jpg", name: "Hans Groothornte" },
-    { image: "/foto3.jpg", name: "Marc Ottenschot" },
-    { image: "/foto4.jpg", name: "Wessel Warmink" },
-    { image: "/foto5.jpg", name: "Tom Denekamp" },
-    { image: "/foto6.jpg", name: "Michel Lammers" },
-    { image: "/foto7.jpg", name: "Sjoerd van der Velde" },
-    { image: "/foto8.jpg", name: "Hefney de Haan" },
-    { image: "/foto9.jpg", name: "Max Porskamp" },
-    { image: "/foto10.jpg", name: "Dick Boerstoel" },
-    { image: "/foto11.jpg", name: "Sil Screever" },
-    { image: "/foto12.jpg", name: "Martijn klein Kranenbarg" },
-    { image: "/foto13.jpg", name: "Mick Borgelink" },
-    { image: "/foto14.jpg", name: "Rene Freriksen" },
-    { image: "/foto15.jpg", name: "Ina Hulzink" },
-    { image: "/foto16.jpg", name: "Wouter Bos" },
+    { image: "./foto1.jpg", name: "Marc Ottenschot" },
+    { image: "./foto2.jpg", name: "Hans Groothornte" },
+    { image: "./foto3.jpg", name: "Marc Ottenschot" },
+    { image: "./foto4.jpg", name: "Wessel Warmink" },
+    { image: "./foto5.jpg", name: "Tom Denekamp" },
+    { image: "./foto6.jpg", name: "Michel Lammers" },
+    { image: "./foto7.jpg", name: "Sjoerd van der Velde" },
+    { image: "./foto8.jpg", name: "Hefney de Haan" },
+    { image: "./foto9.jpg", name: "Max Porskamp" },
+    { image: "./foto10.jpg", name: "Dick Boerstoel" },
+    { image: "./foto11.jpg", name: "Sil Screever" },
+    { image: "./foto12.jpg", name: "Martijn klein Kranenbarg" },
+    { image: "./foto13.jpg", name: "Mick Borgelink" },
+    { image: "./foto14.jpg", name: "Rene Freriksen" },
+    { image: "./foto15.jpg", name: "Ina Hulzink" },
+    { image: "./foto16.jpg", name: "Wouter Bos" },
   ];
 
   return (
