@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const Section7 = () => {
   return (
@@ -14,28 +13,26 @@ const Section7 = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center">
-            <Image
-              src="/S72.jpg" // Changed to start with a leading slash
+            <img
+              src="./S72.jpg" 
               alt="Image 1"
               width={400}
               height={300}
               className="rounded-lg"
             />
-
             <p className="text-center mt-4 text-[#7c7f8d]">
               24 vacation days, 12 ATV days and a profit sharing.
             </p>
           </div>
 
           <div className="flex flex-col items-center">
-            <Image
-              src="/S7.jpg" // Changed to start with a leading slash
+            <img
+              src="./S7.jpg" 
               alt="Image 2"
               width={400}
               height={300}
               className="rounded-lg"
             />
-
             <p className="text-center mt-4 text-[#7c7f8d]">
               Informal, pleasant working atmosphere in a small, proud and
               enthusiastic team.
@@ -43,14 +40,13 @@ const Section7 = () => {
           </div>
 
           <div className="flex flex-col items-center">
-            <Image
-              src="/S73.jpg" // Changed to start with a leading slash
+            <img
+              src="./S73.jpg" 
               alt="Image 3"
               width={400}
               height={300}
               className="rounded-lg"
             />
-
             <p className="text-center mt-4 text-[#7c7f8d]">
               Opportunities for personal and professional growth.
             </p>
