@@ -6,7 +6,7 @@ const HeroHeader29 = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(/background.jpg)", // Mengatur gambar latar belakang
+          backgroundImage: "url(./background.jpg)", // Mengatur gambar latar belakang
           filter: "brightness(0.5)", // Mengatur kecerahan gambar latar belakang
           zIndex: 0, // Menempatkan gambar di belakang konten lainnya
         }}
