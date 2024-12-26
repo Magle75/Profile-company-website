@@ -2,7 +2,7 @@ import React from "react";
 
 const Section5 = () => {
   return (
-    <section className="ezy__header25 light pt-12 bg-white dark:bg-[#dee7f4] text-zinc-900 dark:text-black relative overflow-hidden z-[1]">
+    <section className="ezy__header25 light pt-12bg-[#dee7f4] text-zinc-900 relative overflow-hidden z-[1]">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-y-6 lg:gap-x-6 text-center lg:text-start items-center">
           <div className="col-span-12 lg:col-span-6 py-12">

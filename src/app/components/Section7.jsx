@@ -2,7 +2,7 @@ import React from "react";
 
 const Section7 = () => {
   return (
-    <div className="dark:bg-[#dee7f4]">
+    <div className="bg-[#dee7f4]">
       <section className="container mx-auto py-16 ">
         <h2 className="text-2xl text-[#2b3467] font-bold text-center mb-8">
           Our people are our driving force. We value experienced professionals

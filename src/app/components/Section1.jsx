@@ -3,7 +3,7 @@ import React from "react";
 // Komponen fungsional Section1
 const Section1 = () => {
   return (
-    <section className="light md:py-28 lg:p-44 bg-white dark:bg-[#2b3467] text-zinc-900 dark:text-white">
+    <section className="light md:py-28 lg:p-44 bg-[#2b3467] text-zinc-900 dark:text-white">
       <div className="container px-4">
 
         <div className="grid grid-cols-12 md:gap-8">

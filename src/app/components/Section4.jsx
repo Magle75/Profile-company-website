@@ -40,7 +40,7 @@ const Section4 = () => {
   }, [index]);
 
   return (
-    <section className="ezy__testimonial19 light py-14 md:py-24 bg-white dark:bg-[#dee7f4] text-zinc-900 dark:text-white relative z-[1]">
+    <section className="ezy__testimonial19 light py-14 md:py-24 bg-[#dee7f4] text-zinc-900 relative z-[1]">
       <div className="container px-4 mx-auto relative">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="flex justify-center items-center">
