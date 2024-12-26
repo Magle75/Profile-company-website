@@ -15,7 +15,7 @@ const Section7 = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flex flex-col items-center">
             <Image
-              src="./S72.webp"
+              src="/S72.jpg" // Changed to start with a leading slash
               alt="Image 1"
               width={400}
               height={300}
@@ -29,7 +29,7 @@ const Section7 = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src="./S7.jpg"
+              src="/S7.jpg" // Changed to start with a leading slash
               alt="Image 2"
               width={400}
               height={300}
@@ -44,7 +44,7 @@ const Section7 = () => {
 
           <div className="flex flex-col items-center">
             <Image
-              src="./S73.jpg"
+              src="/S73.jpg" // Changed to start with a leading slash
               alt="Image 3"
               width={400}
               height={300}
